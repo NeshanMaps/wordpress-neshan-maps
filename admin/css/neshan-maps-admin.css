@@ -1,0 +1,21 @@
+#neshan_form_box_save {
+    height: 40px;
+}
+
+.neshan_form_title.ltr {
+    font-size: 15px;
+}
+
+.neshan_form_title {
+    background: #f3f3f3;
+}
+
+#neshan_form_alert_success pre {
+    text-align: center;
+    direction: ltr;
+    background: rgba(255,255,255,0.6);
+    padding: 10px;
+    font-size: 16px;
+    margin: 25px 0 15px;
+    border-radius: .25rem;
+}

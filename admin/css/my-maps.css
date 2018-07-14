@@ -1,0 +1,10 @@
+#neshan_my_maps_wrapper .wp-header-end {
+    margin-bottom: 15px;
+}
+
+#neshan_my_maps_wrapper .column-shortcode pre {
+    direction: ltr;
+}
+.rtl #neshan_my_maps_wrapper .column-shortcode pre {
+    text-align: right;
+}

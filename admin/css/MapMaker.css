@@ -1,0 +1,209 @@
+body {
+    background: #f4f4f4;
+}
+
+#neshan_my_maps_wrapper {
+    background: red;
+}
+
+#neshan_wrapper {
+    font-size: 13px;
+    color: #333;
+    cursor: default;
+}
+
+#neshan_wrapper a,
+#neshan_wrapper a:visited {
+    text-decoration: none;
+    color: #1E88E5;
+}
+#neshan_wrapper a:hover {
+    text-decoration: none;
+    color: #E53935;
+}
+
+#neshan_wrapper ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #bbb !important;
+    opacity: 1; /* Firefox */
+}
+
+#neshan_wrapper .hidden {
+    display: none !important;
+}
+
+body:not(.locale-en-us) .ltr {
+    direction: ltr;
+    /*font-family: Roboto, "Helvetica", Times, serif;*/
+    font-size: 14px;
+}
+
+#neshan_header {
+    position: relative;
+    overflow: hidden;
+}
+    #neshan_header small {
+        font-size: 12px;
+        color: #888;
+    }
+    #neshan_header h1 {
+        display: inline-block;
+        position: relative;
+        vertical-align: middle;
+        font-size: 20px;
+        margin: 39px 20px 0;
+        color: #254e6d;
+    }
+    #neshan_header .container {
+        position: relative;
+        margin-bottom: 20px;
+    }
+        #neshan_header_logo {
+            width: 160px;
+            height: 65px;
+            background: url(../images/logo.png) center center no-repeat;
+            top: 10px;
+            position: relative;
+            text-decoration: none;
+            display: inline-block;
+            vertical-align: middle;
+        }
+
+
+#neshan_form {
+    position: relative;
+}
+
+.neshan_locker {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255,255,255,0.8) url("../images/spinner_blue.svg") center center no-repeat;
+}
+
+
+#neshan_map_holder {
+    min-height: 300px;
+    overflow-x: auto;
+    text-align: center;
+    padding: 20px 10px;
+}
+    #neshan_map {
+        width: 100%;
+        height: 300px;
+        position: relative;
+        margin: 0 auto;
+        border: 2px solid #fff;
+        font-family: Verdana;
+    }
+    .api_key_warning {
+        background-image: url("../images/icon-warning.png");
+        background-repeat: no-repeat;
+        background-position: center 40px;
+        text-align: center;
+    }
+        #api_key_warning_message {
+            padding: 170px 20px 20px;
+            text-align: center;
+            max-width: 400px;
+            position: relative;
+            margin: 0 auto;
+            direction: rtl;
+            color: #e49803;
+            line-height: 1.9em;
+        }
+            #api_key_warning_message hr {
+                margin: 10px auto;
+            }
+            #api_key_warning_message .ltr {
+                color: #ff5700;
+            }
+    #neshan_map_center_marker {
+        width: 22px;
+        height: 28px;
+        background: url("../images/marker-1.png") center center no-repeat;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        margin: -14px auto auto -11px;
+    }
+
+.neshan_form_box {
+    padding: 10px;
+    border: 1px dashed #e0e0e0;
+    background: #fff;
+}
+    .neshan_form_box:not(:last-child) {
+        margin-bottom: 20px;
+    }
+        .neshan_form_box .form-row:last-child .form-group,
+        .neshan_form_box > .form-group {
+            margin-bottom: 0;
+        }
+        .neshan_form_box .form-control {
+            -webkit-border-radius: 0;
+            -moz-border-radius: 0;
+            border-radius: 0;
+        }
+
+.neshan_form_title {
+    text-align: center;
+    font-size: 15px;
+    display: block;
+    color: #7B1FA2;
+    background: #f9f9f9;
+    padding: 7px;
+    font-weight: bold;
+}
+    .neshan_form_title span {
+        font-size: 18px;
+    }
+
+#neshan_form_box_result {
+    position: relative;
+    padding-bottom: 30px;
+}
+    #neshan_form_box_result .neshan_form_title {
+        background: #5f94c7;
+        color: #fff;
+    }
+    #neshan_form_box_result.error .neshan_form_title {
+        /*background: #E53935 !important;*/
+    }
+
+    .neshan_form_box .error {
+        border-color: #E53935 !important;
+        color: #E53935 !important;
+    }
+    .neshan_form_title.ltr {
+        font-size: 20px;
+    }
+
+
+#neshan_maptype_switcher_wrapper {
+    text-align: center;
+    padding-top: 20px;
+}
+    #neshan_maptype_switcher_wrapper label {
+        display: inline-block;
+        border: 4px solid #cacaca;
+        -webkit-transition: all 0.3s;
+        -moz-transition: all 0.3s;
+        -ms-transition: all 0.3s;
+        -o-transition: all 0.3s;
+        transition: all 0.3s;
+        cursor: pointer;
+    }
+    #neshan_maptype_switcher_wrapper label:not(.active):hover {
+        border-color: #E53935;
+    }
+    #neshan_maptype_switcher_wrapper label.active {
+        border-color: #1E88E5 !important;
+        cursor: pointer;
+    }
+        #neshan_maptype_switcher_wrapper input {
+            opacity: 0;
+            width: 0;
+            height: 0;
+        }

@@ -1,0 +1,309 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: neshan-map-simple v1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-07-14 15:49+0330\n"
+"PO-Revision-Date: 2018-07-14 15:50+0330\n"
+"Last-Translator: superadmin <esign@mashhadcode.com.com>\n"
+"Language-Team: \n"
+"Language: fa_IR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 1.7.4\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: languages\n"
+
+#: admin/class-neshan-maps-admin.php:129
+msgid ""
+"Please fill Api Key field by the appropriate key (WebSite) you received from "
+"Neshan Developers Panel"
+msgstr ""
+"لطفا فیلد Api Key را با کلید مناسب (WebSite) که از پنل توسعه دهندگان نشان "
+"دریافت کرده اید، تکمیل نمایید"
+
+#: admin/class-neshan-maps-admin.php:141
+msgid "Are you sure about deleting this map?"
+msgstr "آیا از حذف این نقشه اطمینان دارید؟"
+
+#: admin/class-neshan-maps-admin.php:150
+msgid "Neshan Maps"
+msgstr "نقشه‌ی نشان"
+
+#: admin/class-neshan-maps-admin.php:150
+msgid "Neshan Map"
+msgstr "نقشه نشان"
+
+#: admin/class-neshan-maps-admin.php:153 admin/class-neshan-maps-admin.php:154
+#: admin/partials/my-maps.php:19
+msgid "My Maps"
+msgstr "نقشه‌های من"
+
+#: admin/class-neshan-maps-admin.php:156 admin/class-neshan-maps-admin.php:157
+msgid "Create New Map"
+msgstr "ساخت نقشه جدید"
+
+#: admin/partials/create-simple-map.php:24
+msgid "Neshan Map Maker"
+msgstr "ابزار تولید نقشه‌ی نشان"
+
+#: admin/partials/create-simple-map.php:33
+#: admin/partials/create-simple-map.php:104
+#, php-format
+msgid ""
+"You need an API key before you start creating a map. You can get your API "
+"key from %s Neshan Developers Panel %s for free."
+msgstr ""
+"قبل از شروع به ایجاد یک نقشه، یک کلید API نیاز دارید. شما می توانید کلید API "
+"خود را از %s پنل توسعه‌دهندگان نشان %s به صورت رایگان دریافت کنید."
+
+#: admin/partials/create-simple-map.php:42
+msgid ""
+"Please fill all fields correctly before saving the form. Then you can use "
+"the generated shortcode in any page you want."
+msgstr ""
+"لطفا همه فیلد‌ها را قبل از ذخیره فرم تکمیل نمایید. سپس می‌توانید از شورتکد "
+"تولید شده در هر صفحه که می خواهید استفاده کنید."
+
+#: admin/partials/create-simple-map.php:50
+msgid ""
+"An error occurred while saving map data. Please check all fields and try "
+"again."
+msgstr ""
+"هنگام ذخیره اطلاعات نقشه خطایی رخ داد. لطفا فرم را بررسی و دوباره امتحان "
+"کنید."
+
+#: admin/partials/create-simple-map.php:55
+msgid ""
+"Congratulation! Your map is ready. You can use below shortcode in any page "
+"you want:"
+msgstr ""
+"تبریک!  نقشه‌ی شما آماده است. شما می‌توانید از شورت‌کد زیر در هر صفحه‌ای که "
+"مایلید استفاده کنید:"
+
+#: admin/partials/create-simple-map.php:60
+msgid "Back to My Maps page"
+msgstr "بازگشت به لیست نقشه‌های من"
+
+#: admin/partials/create-simple-map.php:64
+msgid "Create new map"
+msgstr "ایجاد نقشه‌ی جدید"
+
+#: admin/partials/create-simple-map.php:78 admin/partials/my-maps.php:34
+msgid "Title"
+msgstr "عنوان"
+
+#: admin/partials/create-simple-map.php:82
+msgid "Choose a title for this map."
+msgstr "یک عنوان برای این نقشه انتخاب نمایید."
+
+#: admin/partials/create-simple-map.php:88
+msgid "Update Map"
+msgstr "بروزرسانی"
+
+#: admin/partials/create-simple-map.php:99
+msgid "Api Key"
+msgstr "Api Key"
+
+#: admin/partials/create-simple-map.php:110
+msgid "Map settings"
+msgstr "تنظیمات نقشه"
+
+#: admin/partials/create-simple-map.php:115
+msgid "Latitude"
+msgstr "عـرض جغرافیایی:"
+
+#: admin/partials/create-simple-map.php:121
+msgid "Longitude"
+msgstr "طول جغرافیایی"
+
+#: admin/partials/create-simple-map.php:129
+msgid "Latitude or Longitude values did not fill correctly!"
+msgstr "مقادیر طول یا عرض جغرافیایی به درستی تکمیل نشده‌اند!"
+
+#: admin/partials/create-simple-map.php:134
+msgid "Width"
+msgstr "عرض"
+
+#: admin/partials/create-simple-map.php:140
+msgid "Set width in pixel for example 1000 or in percent"
+msgstr "عرض نقشه را به پیکسل یا درصد مشخص کنید"
+
+#: admin/partials/create-simple-map.php:144
+msgid "Height"
+msgstr "ارتفاع"
+
+#: admin/partials/create-simple-map.php:150
+msgid "Set height in pixel for example 400"
+msgstr "ارتفاع نقشه را مشخص کنید (برای مثال 500)"
+
+#: admin/partials/create-simple-map.php:154
+msgid "Zoom"
+msgstr "بزرگنمایی"
+
+#: admin/partials/create-simple-map.php:159
+msgid "Maximum zoom level is 19"
+msgstr "حداکثر سطح بزرگنمایی ۱۹ است"
+
+#: admin/partials/create-simple-map.php:165
+msgid "Map Style"
+msgstr "استایل نقشه"
+
+#: admin/partials/my-maps.php:23
+msgid "Add New"
+msgstr "افزودن"
+
+#: admin/partials/my-maps.php:37
+msgid "Shortcode"
+msgstr "شورت‌کد"
+
+#: admin/partials/my-maps.php:40
+msgid "Date"
+msgstr "تاریخ"
+
+#: admin/partials/my-maps.php:52 admin/partials/my-maps.php:60
+msgid "Edit"
+msgstr "ویرایش"
+
+#: admin/partials/my-maps.php:64
+msgid "Trash"
+msgstr "حـذف"
+
+#: admin/partials/my-maps.php:68
+msgid "Published"
+msgstr "منتشرشده"
+
+#~ msgid "Latitude:"
+#~ msgstr "عـرض جغرافیایی:"
+
+#~ msgid "Longitude:"
+#~ msgstr "طول جغرافیایی:"
+
+#~ msgid "Image Width:"
+#~ msgstr "عرض تصویر:"
+
+#~ msgid "Image height:"
+#~ msgstr "ارتفاع تصویر:"
+
+#~ msgid "Zoom in:"
+#~ msgstr "بزرگنمایی:"
+
+#~ msgid "YOUR_API_KEY"
+#~ msgstr "YOUR_API_KEY"
+
+#~ msgid "Map shortcode Use In Pages."
+#~ msgstr "شورت کد نقشه جهت استفاده در صفحات."
+
+#~ msgid "Edit Item"
+#~ msgstr "ویرایش نقشه"
+
+#~ msgid "Delete Item"
+#~ msgstr "حذف نقشه"
+
+#~ msgid "Show More Detales"
+#~ msgstr "نمایش جزئیات بیشتر"
+
+#~ msgid "No data found"
+#~ msgstr "اطلاعاتی جهت نمایش وجود ندارد"
+
+#~ msgid "No Set Map Name"
+#~ msgstr "نام نقشه تنظیم نشده است"
+
+#~ msgid "Show Map Item"
+#~ msgstr "نمایش نقشه‌ها"
+
+#~ msgid "Badge mapping tool"
+#~ msgstr "ابزار تولید نقشه‌ی نشان"
+
+#~ msgid "Create Map Setting"
+#~ msgstr "تنظیمات ساخت نقشه"
+
+#~ msgid "Map Name:"
+#~ msgstr "نام نقشه:"
+
+#~ msgid "Set In Name For Map"
+#~ msgstr "یک نام برای نقشه خود وارد کنید"
+
+#~ msgid "Create Map"
+#~ msgstr "ساخت نقشه"
+
+#~ msgid "Create a map by clicking on the map."
+#~ msgstr "با کلیک بر روی ساختن نقشه, یک نقشه ایجاد کنید."
+
+#~ msgid "Map Created"
+#~ msgstr "نقشه ساخته شد:"
+
+#~ msgid "Latitude and Longitude values are not entered correctly!"
+#~ msgstr "مقادیر طـول و عـرض جغرافیایی به درستی وارد نشده‌اند!"
+
+#~ msgid "Maximum permissible value is 1200 px / 100%."
+#~ msgstr ""
+#~ " مقدار مجاز 1200 پیکسل و یا <span class=\"ltr\">100%</span>  می‌باشد."
+
+#~ msgid "Maximum permissible value is 1200 px."
+#~ msgstr "حداکثر مقدار مجاز 1200 پیکسل می‌باشد."
+
+#~ msgid "Maximum permissible value is 19."
+#~ msgstr "حداکثر مقدار مجاز 19 می‌باشد."
+
+#~ msgid "Map Create:"
+#~ msgstr "ساخت نقشه:"
+
+#~ msgid "Update Map Setting"
+#~ msgstr "تنظیمات بروزرسانی نقشه"
+
+#~ msgid "If you want to enter a new name."
+#~ msgstr "در صورت نیاز نام جدیدی وارد نمائید."
+
+#~ msgid "Map Update"
+#~ msgstr "بروزرسانی نقشه"
+
+#~ msgid "Save Map"
+#~ msgstr "ذخیره نقشه"
+
+#~ msgid "Click on Update Map to edit your map."
+#~ msgstr "با کلیک بر روی بروزرسانی نقشه, نقشه خود را ویرایش کنید."
+
+#~ msgid "Update a map by clicking on the map."
+#~ msgstr "با کلیک بر روی ذخیره نقشه, نقشه را بروز کنید."
+
+#~ msgid "<h1 class=\"wp-heading-inline\">All Map Item</h1>"
+#~ msgstr "<h1 class=\"wp-heading-inline\">همه نقشه ها</h1>"
+
+#~ msgid "Add Map"
+#~ msgstr "افزودن نقشه"
+
+#~ msgid "Map Name"
+#~ msgstr "نام نقشه:"
+
+#~ msgid "Map Shortcode"
+#~ msgstr "استایل نقشه"
+
+#~ msgid "Update Lasted"
+#~ msgstr "آخرین بروزرسانی"
+
+#~ msgid "Delete Done"
+#~ msgstr "حذف شد"
+
+#~ msgid "Show Shortcode In Box"
+#~ msgstr "باکس نمایش شورتکد"
+
+#~ msgid "Copy In ClipBoard"
+#~ msgstr "کپی در کلیپ بورد"
+
+#~ msgid "Copyed"
+#~ msgstr "کپی شد"
+
+#~ msgid "For example Home Location"
+#~ msgstr "برای مثال : محل خانه"
+
+#~ msgid "<h2>All Map Item</h2>"
+#~ msgstr "<h2>نمایش همه نقشه ها</h2>"
+
+#~ msgid "Create Neshan Map"
+#~ msgstr "ساخت نقشه نشان"
